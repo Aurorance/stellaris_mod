@@ -117,3 +117,5 @@ civic_diversified_researches = {
 		num_tech_alternatives_add = 1
 	}
 }
+
+#test
