@@ -1,0 +1,119 @@
+#civic_example = {
+#	playable = {}								# AND trigger, no scope; use this to prevent the civic from being selectable by the player (UI)
+#	potential = {}								# requirements list, see ../readme_requirements.txt
+#	possible = {}								# requirements list, see ../readme_requirements.txt
+#	pickable_at_start = yes / no				# default: yes
+#	modification = yes / no						# default: yes, set to no to prevent adding or removing this after creation of the empire
+#
+#	random_weight = { base = 5 }				# scriptable weight for randomizing a civic; required, else the civic will not get assigned randomly
+#
+#	modifier = {}								# modifier added to the country if the civic is selected and valid
+#	can_build_ruler_ship = yes / no				# default: no
+#	traits = { trait = ... }					# default: empty; trait set to enforce on the primary species. They cannot be removed, but more can be added if points/picks permit
+#	has_secondary_species = {					# default: none; if present, will enable secondary species customization in empire designer and will create secondary species & pops at galaxy generation time (see empire_init_create_capital_secondary_pops)
+#		traits = { trait = ... }					# default: empty; trait set to enforce on the secondary species. They cannot be removed, but more can be added if points/picks permit
+#	}
+#}
+
+#############
+# Machine Empire
+#############
+
+
+civic_machine_advanced_productivity = {
+	potential = { authority = { value = auth_machine_intelligence } }
+	random_weight = { base = 5 }
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.05
+		planet_jobs_energy_produces_mult = 0.05
+		planet_jobs_alloys_produces_mult = 0.05
+		planet_jobs_researcher_produces_mult = 0.05
+		planet_pop_assembly_mult = -0.15
+	}
+}
+
+
+#############
+# Normal Empire
+#############
+
+
+civic_horny = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	random_weight = { base = 0 }
+	description = "civic_tooltip_horny_effects"
+	modifier = {
+		pop_growth_speed = 0.20
+		pop_citizen_happiness = 0.05
+		planet_pops_organics_upkeep_mult = 0.15
+	}
+}
+
+civic_russian = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+				value = ethic_xenophobe
+				value = ethic_fanatic_xenophobe
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		ship_fire_rate_mult = 0.1
+		ship_disengage_chance_reduction = 0.1
+		ship_speed_mult = 0.2
+		army_experience_gain_mult = 0.2
+		ships_upkeep_mult = 0.05
+		planet_pops_consumer_goods_upkeep_mult = 0.2
+	}
+}
+
+civic_communism = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		pop_cat_worker_political_power = 2
+		pop_cat_specialist_political_power = 1
+		pop_citizen_happiness = 0.05
+		planet_pops_consumer_goods_upkeep_mult = 0.1
+	}
+}
+
+civic_diversified_researches = {
+	potential = {
+		ethics = { 
+			NOR = {
+				text = civic_tooltip_not_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+				value = ethic_gestalt_consciousness
+			}
+		}
+		authority = { NOT = { value = auth_corporate } }
+	}
+	modifier = {
+		num_tech_alternatives_add = 1
+	}
+}
