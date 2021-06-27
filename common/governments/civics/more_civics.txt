@@ -103,6 +103,10 @@ civic_communism = {
 
 civic_diversified_researches = {
 	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
 		ethics = { 
 			NOR = {
 				text = civic_tooltip_not_spiritualist
@@ -111,7 +115,6 @@ civic_diversified_researches = {
 				value = ethic_gestalt_consciousness
 			}
 		}
-		authority = { NOT = { value = auth_corporate } }
 	}
 	modifier = {
 		num_tech_alternatives_add = 1
