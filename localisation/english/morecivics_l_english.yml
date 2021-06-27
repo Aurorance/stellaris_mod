@@ -1,0 +1,30 @@
+﻿l_english:
+ civic_machine_advanced_productivity:0 "Advanced Productivity Core"
+ civic_machine_advanced_productivity_desc:0 "An ancient core from a fallen machine empire that provides an aura which enhances productivity of all robots. No one knows how it works, but we can benefit from it."
+
+ civic_horny:0 "Horny citizens"
+ civic_horny_desc:0 "They shakalakaboomboom everyday. More people, more boom boom, empire stronger!"
+
+ civic_russian:0 "Russian"
+ civic_russian_desc:0 "Somehow vodka is a must for a strong army. Cyka Blyat."
+
+ mod_planet_pops_organics_upkeep_mult:0 "Organic Pop Upkeep"
+
+ civic_communism:0 "Communism"
+ civic_communism_desc:0 "Communism adjusts the political power of all citizens, making the empire more powerful."
+
+ building_brothel:0 "Brothel"
+ building_brothel_desc:0 "Brothel provides thots that increase population growth speed, and also make citizens happier."
+
+ job_pokimane:0 "Pokimane"
+ job_pokimane_plural:0 "Pokimanes"
+ job_pokimane_desc:0 "Twitch thots perform various streams that are crucial to population growth and amenities."
+ job_pokimane_effect_desc:0 "£job_pokimane£ $job_pokimane_plural$ produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ mod_job_pokimane_add:0 "$job_pokimane$ Jobs"
+ mod_job_pokimane_per_pop:0 "§G+1§! $job_pokimane$ Job per $VALUE$ Pops"
+ mod_job_pokimane_per_pop_short:0 "\n§G+1§! £mod_job_clerk_add£ per $VALUE$ £pop£"
+
+ civic_tooltip_horny_effects:1 "£building£ §YBrothels§! that increases £mod_pop_growth_speed£ §YPop Growth Speed§! and allow £job_pokimane §Y$job_pokimane_plural$§! produce £amenities£ §YAmenities§!"
+
+ civic_diversified_researches:0 "Diversified Researches"
+ civic_diversified_researches_desc:0 "Diversified researches are encouraged in the science sector, leading to broader of science development."
