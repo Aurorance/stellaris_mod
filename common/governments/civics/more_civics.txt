@@ -118,4 +118,4 @@ civic_diversified_researches = {
 	}
 }
 
-#nigga
+#niggabuddy
