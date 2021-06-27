@@ -1,0 +1,20 @@
+component_set = {
+	key = "Megumin_1"
+	
+	icon = "GFX_ship_part_Megumin_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Megumin_2"
+	
+	icon = "GFX_ship_part_Megumin_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Megumin_3"
+	
+	icon = "GFX_ship_part_Megumin_3"
+	icon_frame = 1	
+}
