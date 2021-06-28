@@ -14,7 +14,6 @@ Megumin_tech_1 = {
 	}
 	prereqfor_desc = { 
 		ship = {
-			title = "TECH_UNLOCK_Megumin_1_TITLE"
 			desc = "TECH_UNLOCK_Megumin_1_DESC"
 	}
 	}
@@ -56,7 +55,6 @@ Megumin_tech_2 = {
 	}
 	prereqfor_desc = { 
 		ship = {
-			title = "TECH_UNLOCK_Megumin_2_TITLE"
 			desc = "TECH_UNLOCK_Megumin_2_DESC"
 	}
 	}
@@ -98,7 +96,6 @@ Megumin_tech_3 = {
 	}
 	prereqfor_desc = { 
 		ship = {
-			title = "TECH_UNLOCK_Megumin_3_TITLE"
 			desc = "TECH_UNLOCK_Megumin_3_DESC"
 	}
 	}
