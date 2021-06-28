@@ -56,18 +56,18 @@ Megumin_tech_2 = {
 		}
 	}
 }
-Megumin_tech_2 = {
-	cost = 40000
+Megumin_tech_3 = {
+	cost = 48000
 	area = engineering
 	tier = 5
 	category = { propulsion }
-	weight = 25
+	weight = 20
     is_dangerous = yes
     is_reverse_engineerable = yes
 	ai_weight = {
 		factor = 0
 	}
-    prerequisites = { "Megumin_tech_1" }
+    prerequisites = { "Megumin_tech_2" }
 
 	prereqfor_desc = { 
 		ship = {
