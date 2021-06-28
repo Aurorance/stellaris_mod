@@ -3,6 +3,7 @@ sound =
 	name = "ppc_fire_00"
 	file = "weapons/ppc_fire.wav"
 	volume = 0.8
+	always_load = yes 
 }
 
 sound =
@@ -10,6 +11,7 @@ sound =
 	name = "distance_ppc_fire_00"
 	file = "weapons/ppc_fire.wav"
 	volume = 0.5
+	always_load = yes 
 }
 
 # distance_ppc_fire.wav is not used because it sounds bad. Half-cutting does not work well on this.
