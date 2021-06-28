@@ -39,9 +39,12 @@
  civic_diversified_researches_desc:0 "Diversified researches are encouraged in the science sector, leading to broader of science development."
 
 # Megumin
- Megunmin_1:0 "Dangerous Megumin Explosives"
- Megunmin_2:0 "Deadly Megumin Explosives"
- Megunmin_3:0 "Forbidden Megumin Explosives"
- Megumin_tech_1:0 "Dangerous Megumin Explosion"
- Megumin_tech_2:0 "Deadly Megumin Explosion"
- Megumin_tech_3:0 "Forbidden Megumin Explosion"
+ Megumin_1:0 "Dangerous Megumin Explosives"
+ Megumin_2:0 "Deadly Megumin Explosives"
+ Megumin_3:0 "Forbidden Megumin Explosives"
+ Megumin_tech_1:0 "Dangerous Megumin"
+ Megumin_tech_2:0 "Deadly Megumin"
+ Megumin_tech_3:0 "Forbidden Megumin"
+ TECH_UNLOCK_Megumin_1_DESC:0 "Dangerous explosives from Megumin that deals tonnes of damage."
+ TECH_UNLOCK_Megumin_2_DESC "Deadly explosives from Megumin that deals tonnes of damage."
+ TECH_UNLOCK_Megumin_3_DESC "Forbidden explosives from Megumin that deals tonnes of damage."
