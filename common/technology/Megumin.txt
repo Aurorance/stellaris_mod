@@ -2,7 +2,7 @@ Megumin_tech_1 = {
 	cost = 32000
 	area = engineering
 	tier = 5
-	category = { Propulsion }
+	category = { propulsion }
 	weight = 30
     is_dangerous = yes
     is_reverse_engineerable = yes
@@ -13,10 +13,9 @@ Megumin_tech_1 = {
 	}
 	prereqfor_desc = { 
 		ship = {
-			desc = "TECH_UNLOCK_Megumin_1_DESC"
+			desc = "Megumin_1_DESC"
 	}
 	}
-
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -26,21 +25,13 @@ Megumin_tech_1 = {
                 has_level > 4
 			}
 		}
-        modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_rocketry"
-                has_level > 3
-			}
-		}
 	}
 }
 Megumin_tech_2 = {
 	cost = 40000
 	area = engineering
 	tier = 5
-	category = { Propulsion }
+	category = { propulsion }
 	weight = 25
     is_dangerous = yes
     is_reverse_engineerable = yes
@@ -51,10 +42,9 @@ Megumin_tech_2 = {
 
 	prereqfor_desc = { 
 		ship = {
-			desc = "TECH_UNLOCK_Megumin_2_DESC"
+			desc = "Megumin_2_DESC"
 	}
 	}
-
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
@@ -64,34 +54,24 @@ Megumin_tech_2 = {
                 has_level > 4
 			}
 		}
-        modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_rocketry"
-                has_level > 3
-			}
-		}
 	}
-
-Megumin_tech_3 = {
-	cost = 48000
+}
+Megumin_tech_2 = {
+	cost = 40000
 	area = engineering
 	tier = 5
-	category = { Propulsion }
-	weight = 20
+	category = { propulsion }
+	weight = 25
     is_dangerous = yes
     is_reverse_engineerable = yes
 	ai_weight = {
 		factor = 0
 	}
-    prerequisites = { "Megumin_tech_2" }
+    prerequisites = { "Megumin_tech_1" }
 
-	potential = {
-	}
 	prereqfor_desc = { 
 		ship = {
-			desc = "TECH_UNLOCK_Megumin_3_DESC"
+			desc = "Megumin_2_DESC"
 	}
 	}
 	weight_modifier = {
@@ -100,15 +80,7 @@ Megumin_tech_3 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_spark_of_genius"
-				has_level > 3
-			}
-		}
-        modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_rocketry"
-				has_level > 4
+                has_level > 4
 			}
 		}
 	}
