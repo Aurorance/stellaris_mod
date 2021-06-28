@@ -9,9 +9,9 @@ weapon_component_template = {
 	
 	firing_arc = 25.0
 	min_range = 10.0
-	prerequisites = { "Megumin_1" }
+	prerequisites = { "Megumin_tech_1" }
 	component_set = "Megumin_1"
-	projectile_gfx = "Megumin_explosion"
+	projectile_gfx = "GFX_Megumin_explosion"
     prio_projectile = yes
 	tags = { weapon_type_explosive }
     power = -150
@@ -50,9 +50,9 @@ weapon_component_template = {
 	
 	firing_arc = 25.0
 	min_range = 10.0
-	prerequisites = { "Megumin_2" }
+	prerequisites = { "Megumin_tech_2" }
 	component_set = "Megumin_2"
-	projectile_gfx = "Megumin_explosion"
+	projectile_gfx = "GFX_Megumin_explosion"
     prio_projectile = yes
 	tags = { weapon_type_explosive }
     power = -300
@@ -92,9 +92,9 @@ weapon_component_template = {
 	
 	firing_arc = 25.0
 	min_range = 10.0
-	prerequisites = { "Megumin_3" }
+	prerequisites = { "Megumin_tech_3" }
 	component_set = "Megumin_3"
-	projectile_gfx = "Megumin_explosion"
+	projectile_gfx = "GFX_Megumin_explosion"
     prio_projectile = yes
 	tags = { weapon_type_explosive }
     power = -450

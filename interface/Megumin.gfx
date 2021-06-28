@@ -1,0 +1,17 @@
+spriteTypes{
+	spriteType = {
+		name = "GFX_ship_part_Megumin_1"
+		texturefile = "gfx/interface/icons/ship_parts/Megumin_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_Megumin_2"
+		texturefile = "gfx/interface/icons/ship_parts/Megumin_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_Megumin_3"
+		texturefile = "gfx/interface/icons/ship_parts/Megumin_3.dds"
+	}
+	
+}
