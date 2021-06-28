@@ -46,5 +46,5 @@
  Megumin_tech_2:0 "Deadly Megumin"
  Megumin_tech_3:0 "Forbidden Megumin"
  TECH_UNLOCK_Megumin_1_DESC:0 "Dangerous explosives from Megumin that deals tonnes of damage."
- TECH_UNLOCK_Megumin_2_DESC "Deadly explosives from Megumin that deals tonnes of damage."
- TECH_UNLOCK_Megumin_3_DESC "Forbidden explosives from Megumin that deals tonnes of damage."
+ TECH_UNLOCK_Megumin_2_DESC:0 "Deadly explosives from Megumin that deals tonnes of damage."
+ TECH_UNLOCK_Megumin_3_DESC:0 "Forbidden explosives from Megumin that deals tonnes of damage."
