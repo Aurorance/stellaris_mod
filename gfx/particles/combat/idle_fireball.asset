@@ -23,7 +23,7 @@ particle={
 			x=100.000
 			y=210.000
 			z=255.000
-			alpha=150.000,alpha_fade
+			alpha=150.000
 		}
 		position={
 		}
@@ -33,7 +33,7 @@ particle={
 		velocity={ 3.000 0.000 }
 		life={ 0.400 0.100 }
 		emission=400.000
-		size=5.000,shrink
+		size=15.000,shrink
 		rotation={ 0.000 180.000 }
 		rotation_speed=0.000
 	}
