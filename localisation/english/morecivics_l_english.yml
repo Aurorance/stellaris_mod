@@ -1,21 +1,28 @@
 ﻿l_english:
+# Civic Advanced Productivity
  civic_machine_advanced_productivity:0 "Advanced Productivity Core"
  civic_machine_advanced_productivity_desc:0 "An ancient core from a fallen machine empire that provides an aura which enhances productivity of all robots. No one knows how it works, but we can benefit from it."
 
+# Civic Horny Citizens
  civic_horny:0 "Horny citizens"
  civic_horny_desc:0 "They shakalakaboomboom everyday. More people, more boom boom, empire stronger!"
 
+# Civic Russian
  civic_russian:0 "Russian"
  civic_russian_desc:0 "Somehow vodka is a must for a strong army. Cyka Blyat."
 
+# Organic Pops
  mod_planet_pops_organics_upkeep_mult:0 "Organic Pop Upkeep"
 
+# Communism
  civic_communism:0 "Communism"
  civic_communism_desc:0 "Communism adjusts the political power of all citizens, making the empire more powerful."
 
+# Brothel
  building_brothel:0 "Brothel"
  building_brothel_desc:0 "Brothel provides thots that increase population growth speed, and also make citizens happier."
 
+# Pokimane Job
  job_pokimane:0 "Pokimane"
  job_pokimane_plural:0 "Pokimanes"
  job_pokimane_desc:0 "Twitch thots perform various streams that are crucial to population growth and amenities."
@@ -24,7 +31,17 @@
  mod_job_pokimane_per_pop:0 "§G+1§! $job_pokimane$ Job per $VALUE$ Pops"
  mod_job_pokimane_per_pop_short:0 "\n§G+1§! £mod_job_clerk_add£ per $VALUE$ £pop£"
 
+# Horny describes brothels
  civic_tooltip_horny_effects:1 "£building£ §YBrothels§! that increases £mod_pop_growth_speed£ §YPop Growth Speed§! and allow £job_pokimane §Y$job_pokimane_plural$§! produce £amenities£ §YAmenities§!"
 
+# Diversified Researches
  civic_diversified_researches:0 "Diversified Researches"
  civic_diversified_researches_desc:0 "Diversified researches are encouraged in the science sector, leading to broader of science development."
+
+# Megumin
+ Megunmin_1:0 "Dangerous Megumin Explosives"
+ Megunmin_2:0 "Deadly Megumin Explosives"
+ Megunmin_3:0 "Forbidden Megumin Explosives"
+ Megumin_tech_1:0 "Dangerous Megumin Explosion"
+ Megumin_tech_2:0 "Deadly Megumin Explosion"
+ Megumin_tech_3:0 "Forbidden Megumin Explosion"
