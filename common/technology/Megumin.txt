@@ -73,7 +73,7 @@ Megumin_tech_2 = {
 			}
 		}
 	}
-}
+
 Megumin_tech_3 = {
 	cost = 48000
 	area = engineering
@@ -89,15 +89,11 @@ Megumin_tech_3 = {
 
 	potential = {
 	}
-	modifier={
-	random_owned_pop = { kill_pop = yes }
 	prereqfor_desc = { 
 		ship = {
 			desc = "TECH_UNLOCK_Megumin_3_DESC"
 	}
 	}
-
-
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
