@@ -1,0 +1,23 @@
+objectTypes = {
+
+pdxparticle = {
+	name = "small_ppc_idle_particle"
+	type = "ppc_idle_file"
+	
+	scale = 0.5
+}
+
+pdxparticle = {
+	name = "medium_ppc_idle_particle"
+	type = "ppc_idle_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "large_ppc_idle_particle"
+	type = "ppc_idle_file"
+	
+	scale = 1.5
+}
+}

@@ -6,8 +6,17 @@ Megumin_tech_1 = {
 	weight = 30
     is_dangerous = yes
     is_reverse_engineerable = yes
-
+	ai_weight = 0
 	potential = {
+	}
+	modifier={
+	random_owned_pop = { kill_pop = yes }
+	}
+	prereqfor_desc = { 
+		ship = {
+			title = "TECH_UNLOCK_Megumin_1_TITLE"
+			desc = "TECH_UNLOCK_Megumin_1_DESC"
+	}
 	}
 
 	weight_modifier = {
@@ -37,9 +46,19 @@ Megumin_tech_2 = {
 	weight = 25
     is_dangerous = yes
     is_reverse_engineerable = yes
+	ai_weight = 0
     prerequisites = { "Megumin_tech_1" }
 
 	potential = {
+	}
+	modifier={
+	random_owned_pop = { kill_pop = yes }
+	}
+	prereqfor_desc = { 
+		ship = {
+			title = "TECH_UNLOCK_Megumin_2_TITLE"
+			desc = "TECH_UNLOCK_Megumin_2_DESC"
+	}
 	}
 
 	weight_modifier = {
@@ -69,10 +88,21 @@ Megumin_tech_3 = {
 	weight = 20
     is_dangerous = yes
     is_reverse_engineerable = yes
+	ai_weight = 0
     prerequisites = { "Megumin_tech_2" }
 
 	potential = {
 	}
+	modifier={
+	random_owned_pop = { kill_pop = yes }
+	}
+	prereqfor_desc = { 
+		ship = {
+			title = "TECH_UNLOCK_Megumin_3_TITLE"
+			desc = "TECH_UNLOCK_Megumin_3_DESC"
+	}
+	}
+
 
 	weight_modifier = {
 		modifier = {
