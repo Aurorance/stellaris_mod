@@ -1,6 +1,6 @@
 entity = {
 	name = "ppc_small_muzzle_flash_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
@@ -11,7 +11,7 @@ entity = {
 
 entity = {
 	name = "ppc_medium_muzzle_flash_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
@@ -21,7 +21,7 @@ entity = {
 }
 entity = {
 	name = "ppc_large_muzzle_flash_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "idle"
 	state = { name = "idle" state_time = 7 looping = no
@@ -34,7 +34,7 @@ entity = {
 
 entity = {
 	name = "ppc_small_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "attack"
 	state = { name = "attack"
@@ -45,7 +45,7 @@ entity = {
 
 entity = {
 	name = "ppc_medium_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "attack"
 	state = { name = "attack"
@@ -56,7 +56,7 @@ entity = {
 
 entity = {
 	name = "ppc_large_entity"
-	cull_radius = 1.0
+	cull_radius = 9999
 	
 	default_state = "attack"
 	state = { name = "attack"
