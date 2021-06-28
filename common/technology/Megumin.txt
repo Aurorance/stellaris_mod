@@ -2,7 +2,7 @@ Megumin_tech_1 = {
 	cost = 32000
 	area = engineering
 	tier = 5
-	category = { particles }
+	category = { Propulsion }
 	weight = 30
     is_dangerous = yes
     is_reverse_engineerable = yes
@@ -40,7 +40,7 @@ Megumin_tech_2 = {
 	cost = 40000
 	area = engineering
 	tier = 5
-	category = { particles }
+	category = { Propulsion }
 	weight = 25
     is_dangerous = yes
     is_reverse_engineerable = yes
@@ -78,7 +78,7 @@ Megumin_tech_3 = {
 	cost = 48000
 	area = engineering
 	tier = 5
-	category = { particles }
+	category = { Propulsion }
 	weight = 20
     is_dangerous = yes
     is_reverse_engineerable = yes
@@ -100,7 +100,7 @@ Megumin_tech_3 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_spark_of_genius"
-                has_level > 4
+				has_level > 3
 			}
 		}
         modifier = {
@@ -108,7 +108,7 @@ Megumin_tech_3 = {
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_expertise_rocketry"
-                has_level > 3
+				has_level > 4
 			}
 		}
 	}
