@@ -1,5 +1,44 @@
 particle={
 	name="ppc_idle_file"
+	animation={
+		name="alpha_fade"
+		start=0.000
+		duration=1.000
+		repeat=no
+		minValue=0.000
+		maxValue=1.000
+		curve={
+			0.000 0.000 0.082 0.859 0.535 1.000 0.741 0.266 1.000 0.000 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="grow"
+		start=0.000
+		duration=1.000
+		repeat=no
+		minValue=0.000
+		maxValue=1.000
+		curve={
+			0.000 0.461 1.000 1.000 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="shrink"
+		start=0.000
+		duration=1.000
+		repeat=no
+		minValue=0.000
+		maxValue=1.000
+		curve={
+			0.000 1.000 1.000 0.000 
+		}
+		op="MUL"
+		time="life"
+	}
 	subsystem={
 		name="mist"
 		max_amount=400
@@ -144,45 +183,6 @@ particle={
 		size=7.000,shrink
 		rotation={ 0.000 180.000 }
 		rotation_speed=0.000
-	}
-	animation={
-		name="alpha_fade"
-		start=0.000
-		duration=1.000
-		repeat=no
-		minValue=0.000
-		maxValue=1.000
-		curve={
-			0.000 0.000 0.082 0.859 0.535 1.000 0.741 0.266 1.000 0.000 
-		}
-		op="MUL"
-		time="life"
-	}
-	animation={
-		name="grow"
-		start=0.000
-		duration=1.000
-		repeat=no
-		minValue=0.000
-		maxValue=1.000
-		curve={
-			0.000 0.461 1.000 1.000 
-		}
-		op="MUL"
-		time="life"
-	}
-	animation={
-		name="shrink"
-		start=0.000
-		duration=1.000
-		repeat=no
-		minValue=0.000
-		maxValue=1.000
-		curve={
-			0.000 1.000 1.000 0.000 
-		}
-		op="MUL"
-		time="life"
 	}
 	force={
 		type="planar"
