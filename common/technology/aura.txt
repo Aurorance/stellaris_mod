@@ -1,9 +1,9 @@
-Megumin_tech_1 = {
-	cost = 32000
+kamikaze_tech_1 = {
+	cost = 4000
 	area = engineering
-	tier = 5
+	tier = 3
 	category = { propulsion }
-	weight = 30
+	weight = 70
     is_dangerous = yes
     is_reverse_engineerable = yes
 	ai_weight = {
@@ -13,7 +13,7 @@ Megumin_tech_1 = {
 	}
 	prereqfor_desc = { 
 		ship = {
-			desc = "Megumin_1_DESC"
+			desc = "kamikaze_1_DESC"
 	}
 	}
 	weight_modifier = {
@@ -27,22 +27,22 @@ Megumin_tech_1 = {
 		}
 	}
 }
-Megumin_tech_2 = {
-	cost = 40000
+kamikaze_tech_2 = {
+	cost = 12000
 	area = engineering
-	tier = 5
+	tier = 4
 	category = { propulsion }
-	weight = 25
+	weight = 60
     is_dangerous = yes
     is_reverse_engineerable = yes
 	ai_weight = {
 		factor = 0
 	}
-    prerequisites = { "Megumin_tech_1" }
+    prerequisites = { "kamikaze_tech_1" }
 
 	prereqfor_desc = { 
 		ship = {
-			desc = "Megumin_2_DESC"
+			desc = "kamikaze_2_DESC"
 	}
 	}
 	weight_modifier = {
@@ -55,23 +55,22 @@ Megumin_tech_2 = {
 			}
 		}
 	}
-}
-Megumin_tech_3 = {
+	kamikaze_tech_3 = {
 	cost = 48000
 	area = engineering
 	tier = 5
 	category = { propulsion }
-	weight = 20
+	weight = 50
     is_dangerous = yes
     is_reverse_engineerable = yes
 	ai_weight = {
 		factor = 0
 	}
-    prerequisites = { "Megumin_tech_2" }
+    prerequisites = { "kamikazen_tech_2" }
 
 	prereqfor_desc = { 
 		ship = {
-			desc = "Megumin_3_DESC"
+			desc = "kamikaze_3_DESC"
 	}
 	}
 	weight_modifier = {

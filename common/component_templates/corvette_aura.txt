@@ -1,0 +1,123 @@
+utility_component_template = {
+	key = "kamikaze_1"
+	size = aux
+	icon = "GFX_ship_part_aura_shield_dampener"
+	icon_frame = 1
+	power = -15
+	
+	size_restriction = { corvette }
+	component_set = "kamikaze_1"
+	prerequisites = { "kamikaze_tech_1" }
+	modifier = {
+		ship_speed_mult = 0.20
+		ship_evasion_mult = 0.05
+	}
+	hostile_aura = {
+		name = "kamikaze"
+		radius = 30
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_shield_dampener
+			priority = 30
+		}
+		
+		modifier = {
+			ship_shield_mult = -0.33
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+	should_ai_use = no
+}
+utility_component_template = {
+	key = "kamikaze_2"
+	size = aux
+	icon = "GFX_ship_part_aura_shield_dampener"
+	icon_frame = 1
+	power = -30
+	
+	size_restriction = { corvette }
+	component_set = "kamikaze_2"
+	prerequisites = { "kamikaze_tech_2" }
+	modifier = {
+		ship_speed_mult = 0.60
+		ship_evasion_mult = 0.10
+	}
+	hostile_aura = {
+		name = "kamikaze"
+		radius = 40
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_shield_dampener
+			priority = 60
+		}
+		
+		modifier = {
+			ship_shield_mult = -0.66
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+	should_ai_use = no
+}
+utility_component_template = {
+	key = "kamikaze_3"
+	size = aux
+	icon = "GFX_ship_part_aura_shield_dampener"
+	icon_frame = 1
+	power = -45
+	
+	size_restriction = { corvette }
+	component_set = "kamikaze_3"
+	prerequisites = { "kamikaze_tech_3" }
+	modifier = {
+		ship_speed_mult = 1.20
+		ship_evasion_mult = 0.30
+	}
+	hostile_aura = {
+		name = "kamikaze"
+		radius = 50
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_shield_dampener
+			priority =90
+		}
+		
+		modifier = {
+			ship_shield_mult = -1.00
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+	should_ai_use = no
+}
