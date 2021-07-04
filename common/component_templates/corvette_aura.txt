@@ -5,7 +5,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = -15
 	
-	size_restriction = { corvette }
+	size_restriction = { corvette pnis }
 	component_set = "kamikaze_1"
 	prerequisites = { "kamikaze_tech_1" }
 	modifier = {
