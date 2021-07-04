@@ -1,0 +1,28 @@
+tech_pnis = {
+	cost = 4000
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	weight = 70
+    is_reverse_engineerable = yes
+	ai_weight = {
+		factor = 0
+	}
+	potential = {
+	}
+	prereqfor_desc = { 
+		ship = {
+			desc = "pnis_DESC"
+	}
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+                has_level > 2
+			}
+		}
+	}
+}
