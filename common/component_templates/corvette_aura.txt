@@ -1,7 +1,7 @@
 utility_component_template = {
 	key = "kamikaze_1"
 	size = aux
-	icon = "GFX_ship_part_aura_shield_dampener"
+	icon = "GFX_ship_part_kamikaze_1"
 	icon_frame = 1
 	power = -15
 	
@@ -42,7 +42,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "kamikaze_2"
 	size = aux
-	icon = "GFX_ship_part_aura_shield_dampener"
+	icon = "GFX_ship_part_kamikaze_2"
 	icon_frame = 1
 	power = -30
 	
@@ -83,7 +83,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "kamikaze_3"
 	size = aux
-	icon = "GFX_ship_part_aura_shield_dampener"
+	icon = "GFX_ship_part_kamikaze_3"
 	icon_frame = 1
 	power = -45
 	

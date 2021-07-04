@@ -1,18 +1,18 @@
 component_set = {
 	key = "kamikaze_1"
 
-	icon = "GFX_ship_part_sensor"
+	icon = "GFX_ship_part_kamikaze_1"
 	icon_frame = 1	
 }
 component_set = {
 	key = "kamikaze_2"
 
-	icon = "GFX_ship_part_sensor"
+	icon = "GFX_ship_part_kamikaze_2"
 	icon_frame = 1	
 }
 component_set = {
 	key = "kamikaze_3"
 	
-	icon = "GFX_ship_part_sensor"
+	icon = "GFX_ship_part_kamikaze_3"
 	icon_frame = 1	
 }

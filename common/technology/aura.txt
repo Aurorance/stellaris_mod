@@ -55,7 +55,8 @@ kamikaze_tech_2 = {
 			}
 		}
 	}
-	kamikaze_tech_3 = {
+}
+kamikaze_tech_3 = {
 	cost = 48000
 	area = engineering
 	tier = 5
@@ -66,7 +67,7 @@ kamikaze_tech_2 = {
 	ai_weight = {
 		factor = 0
 	}
-    prerequisites = { "kamikazen_tech_2" }
+    prerequisites = { "kamikaze_tech_2" }
 
 	prereqfor_desc = { 
 		ship = {

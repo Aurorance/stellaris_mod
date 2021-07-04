@@ -1,0 +1,17 @@
+spriteTypes{
+	spriteType = {
+		name = "GFX_ship_part_kamikaze_1"
+		texturefile = "gfx/interface/icons/ship_parts/kamikaze_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_kamikaze_2"
+		texturefile = "gfx/interface/icons/ship_parts/kamikaze_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_kamikaze_3"
+		texturefile = "gfx/interface/icons/ship_parts/kamikaze_3.dds"
+	}
+	
+}
