@@ -3,4 +3,8 @@ spriteTypes{
 		name = "GFX_ship_part_hylian_shield"
 		texturefile = "gfx/interface/icons/ship_parts/hylian_shield.dds"
 	}
+	spriteType = {
+		name = "GFX_ship_part_Great_Eagle_Bow"
+		texturefile = "gfx/interface/icons/ship_parts/Great_Eagle_Bow.dds"
+	}
 }

@@ -16,3 +16,10 @@ component_set = {
 	icon = "GFX_ship_part_hylian_shield"
 	icon_frame = 1	
 }
+component_set = {
+	key = "Great_Eagle_Bow"
+
+	icon = "GFX_ship_part_Great_Eagle_Bow"
+	icon_frame = 1	
+}
+

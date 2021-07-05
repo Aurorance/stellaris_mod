@@ -3,6 +3,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_hylian_shield"
 	icon_frame = 1
+	prerequisites = { "tech_hylian_shield" }
 	power = 45
 	resources = {
 		category = ship_components
@@ -26,6 +27,7 @@ utility_component_template = {
 	size = medium
 	icon = "GFX_ship_part_hylian_shield"
 	icon_frame = 1
+	prerequisites = { "tech_hylian_shield" }
 	power = 90
 	resources = {
 		category = ship_components
@@ -49,6 +51,7 @@ utility_component_template = {
 	size = large
 	icon = "GFX_ship_part_hylian_shield"
 	icon_frame = 1
+	prerequisites = { "tech_hylian_shield" }
 	power = 90
 	resources = {
 		category = ship_components
@@ -66,4 +69,40 @@ utility_component_template = {
 		ship_shield_regen_add_static = 8.5 #Regeneration per day
 	}
 	component_set = "hylian_shield_l"
+}
+weapon_component_template = {
+	key = "Great_Eagle_Bow"
+	size = large
+	
+	icon = "GFX_ship_part_Great_Eagle_Bow"
+	icon_frame = 1
+	
+	prerequisites = { "tech_Great_Eagle_Bow" }
+	component_set = "Great_Eagle_Bow"
+	type = instant
+	projectile_gfx = "gamma_laser_l"
+	power = -85
+	damage = { min = 222 max = 444 }
+    windup = { min = 2 max = 20 }
+    total_fire_time = 55
+    hull_damage = 1.0
+    shield_damage = 0.5
+    armor_damage = 1.5
+	armor_penetration = 0.10
+	should_ai_use = no
+    range = 150
+    accuracy = 0.9
+    tracking = 0.5
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 144
+		}
+		upkeep = {
+			energy = 1.22
+			alloys = 0.212
+		}
+	}
 }

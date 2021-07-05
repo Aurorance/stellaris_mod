@@ -1,0 +1,36 @@
+tech_guardian = {
+	cost = 20000
+	area = society
+	category = { biology }
+	tier = 4
+	is_rare = yes
+	weight = 0
+	weight_modifier = {
+		modifier = {
+			factor = 0
+}
+	}
+}
+tech_Great_Eagle_Bow = {
+	area = physics
+	cost = 32000
+	tier = 5	
+	category = { particles }
+	weight = 0	
+	weight_modifier = {
+		modifier = {
+			factor = 0
+		}
+	}
+}
+tech_hylian_shield = {
+	area = physics
+	cost = 42000
+	tier = 5
+	category = { field_manipulation }
+	weight = 0
+	weight_modifier = {
+		factor = 0
+	}
+}
+
