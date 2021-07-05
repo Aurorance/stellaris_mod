@@ -1,0 +1,18 @@
+component_set = {
+	key = "hylian_shield_s"
+
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1	
+}
+component_set = {
+	key = "hylian_shield_m"
+
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1	
+}
+component_set = {
+	key = "hylian_shield_l"
+
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1	
+}

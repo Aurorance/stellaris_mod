@@ -1,0 +1,69 @@
+utility_component_template = {
+	key = "hylian_shield_s"
+	size = small
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1
+	power = 45
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 12
+			exotic_gases = 0.333
+		}	
+		upkeep = {
+			energy = 0.07
+			alloys = 0.014
+		}
+	}
+	modifier = {
+		ship_shield_add = 165
+		ship_shield_regen_add_static = 1.5 #Regeneration per day
+	}
+	component_set = "hylian_shield_s"
+}
+utility_component_template = {
+	key = "hylian_shield_m"
+	size = medium
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1
+	power = 90
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 22
+			exotic_gases = 0.666
+		}	
+		upkeep = {
+			energy = 0.13
+			alloys = 0.026
+		}
+	}
+	modifier = {
+		ship_shield_add = 450
+		ship_shield_regen_add_static = 3.5 #Regeneration per day
+	}
+	component_set = "hylian_shield_m"
+}
+utility_component_template = {
+	key = "hylian_shield_l"
+	size = large
+	icon = "GFX_ship_part_hylian_shield"
+	icon_frame = 1
+	power = 90
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+			exotic_gases = 1.333
+		}	
+		upkeep = {
+			energy = 0.44
+			alloys = 0.088
+		}
+	}
+	modifier = {
+		ship_shield_add = 1050
+		ship_shield_regen_add_static = 8.5 #Regeneration per day
+	}
+	component_set = "hylian_shield_l"
+}

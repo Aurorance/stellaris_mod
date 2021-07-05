@@ -1,0 +1,6 @@
+spriteTypes{
+	spriteType = {
+		name = "GFX_ship_part_hylian_shield"
+		texturefile = "gfx/interface/icons/ship_parts/hylian_shield.dds"
+	}
+}
