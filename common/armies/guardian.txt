@@ -1,0 +1,25 @@
+guardian = {
+	defensive = yes
+	damage = 6.0
+	health = 8.0
+	has_morale = no
+	morale_damage = 1.5
+	collateral_damage = 0.0
+	war_exhaustion = 0.0
+	time = 60
+	has_species = no
+
+	icon_frame = 11
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 800
+		}
+
+		upkeep = {
+			energy = 8
+		}
+	}
+	prerequisites = { "tech_guardian" }
+}
