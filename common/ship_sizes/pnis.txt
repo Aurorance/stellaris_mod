@@ -1,11 +1,12 @@
 pnis = {
+	entity = fungoid_01_corvette_entity
 	graphical_culture = no
 	formation_priority = 1
 	max_speed = 1600
 	acceleration = 35
 	rotation_speed = 10
 	collision_radius = 2.0
-	max_hitpoints = 150
+	max_hitpoints = 1500
 	modifier = {
 		ship_evasion_add = 90
 		ship_piracy_suppression_add = 1
