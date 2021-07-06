@@ -17,7 +17,7 @@ weapon_component_template = {
     power = -150
     damage = { min = 10000 max = 30000 }
     windup = { min = 30 max = 45 }
-    total_fire_time = 210
+    total_fire_time = 180
     hull_damage = 2.0
     shield_damage = 0.5
     armor_damage = 1.25
@@ -25,7 +25,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_hull }
     range = 250
     accuracy = 0.65
-    tracking = 0.0
+    tracking = 0.4
 	upgrades_to = "Megumin_2"
 
 	resources = {
@@ -59,7 +59,7 @@ weapon_component_template = {
     power = -300
     damage = { min = 20000 max = 60000 }
     windup = { min = 35 max = 50 }
-    total_fire_time = 240
+    total_fire_time = 210
     hull_damage = 2.0
     shield_damage = 0.5
     armor_damage = 1.25
@@ -67,7 +67,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_hull }
     range = 275
     accuracy = 0.75
-    tracking = 0.0
+    tracking = 0.5
 	upgrades_to = "Megumin_3"
 
 
@@ -103,7 +103,7 @@ weapon_component_template = {
     power = -450
     damage = { min = 30000 max = 90000 }
     windup = { min = 30 max = 45 }
-    total_fire_time = 270
+    total_fire_time = 240
     hull_damage = 2.0
     shield_damage = 0.5
     armor_damage = 1.25
@@ -111,7 +111,7 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_hull }
     range = 300
     accuracy = 0.85
-    tracking = 0.0
+    tracking = 0.6
 
 	resources = {
 		category = ship_components

@@ -1,4 +1,5 @@
 pnis = {
+	graphical_culture = no
 	formation_priority = 1
 	max_speed = 1600
 	acceleration = 35

@@ -8,8 +8,8 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "ppc_small_entity"
-	speed = 300.0			#preferred speed of the projectile
-	max_duration = 10.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+	speed = 3000.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 	
 	shield_impact = {
 		size = small
@@ -27,8 +27,8 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "ppc_medium_entity"
-	speed = 350.0			#preferred speed of the projectile
-	max_duration = 10.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+	speed = 3000.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 	
 	shield_impact = {
 		size = medium
@@ -46,8 +46,8 @@ projectile_gfx_ballistic = {
 	
 	#ballistic specific
 	entity = "ppc_large_entity"
-	speed = 400.0			#preferred speed of the projectile
-	max_duration = 10.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+	speed = 3000.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
 	
 	shield_impact = {
 		size = large
