@@ -51,3 +51,8 @@
  Megumin_tech_1_desc:0 "Dangerous explosives from Megumin that deals tonnes of damage."
  Megumin_tech_2_desc:0 "Deadly explosives from Megumin that deals tonnes of damage."
  Megumin_tech_3_desc:0 "Forbidden explosives from Megumin that deals tonnes of damage."
+
+# Zora Sword
+ mipha_bless:0 "Mipha's Blessing"
+ r_trident:0 "Ceremonial Trident"
+ r_trident_desc:0 "A trident wielded by Zora Champion Mipha. It gives the blessing from Mipha to the whole empire which boosts regeneration."

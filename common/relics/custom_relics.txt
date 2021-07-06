@@ -3,10 +3,10 @@
 @triumph_duration_short = 1800
 @triumph_duration_veryshort = 900
 
-r_zora_sword = {
+r_trident = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_zora_sword"
-	sound = "relic_activation_ether_zora_sword"
+	portrait = "GFX_relic_trident"
+	sound = "relic_activation_trident"
 
 	resources = {
 		category = relics
@@ -25,13 +25,14 @@ r_zora_sword = {
 			always = yes
 		}
 		ship_base_speed_mult = 0.2
+		ship_evasion_mult = 0.1
 	}
 
 	score = 2000
 
 	active_effect = {
 		add_modifier = {
-			modifier = "zora_healing"
+			modifier = "mipha_bless"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown

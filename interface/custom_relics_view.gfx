@@ -2,15 +2,15 @@ spriteTypes = {
 
 	# Zora Sword
 	SpriteType = {
-		name = "GFX_relic_zora_sword"
-		texturefile = "gfx/interface/icons/relics/r_zora_sword.dds"			
+		name = "GFX_relic_trident"
+		texturefile = "gfx/interface/icons/relics/r_trident.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/icons/relics/r_zora_sword.dds"			
-			animationtexturefile = "gfx/interface/icons/relics/r_zora_shine.dds" 	# <- the animated file
+			animationmaskfile = "gfx/interface/icons/relics/r_trident.dds"			
+			animationtexturefile = "gfx/interface/icons/relics/r_trident_shine.dds" 	# <- the animated file
 			animationrotation = 0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
-			animationtime = 10				# in seconds
+			animationtime = 7				# in seconds
 			animationdelay = 0			# in seconds
 			animationblendmode = "add"       #add, multiply, overlay
 			animationtype = "pulsing"      #scrolling, rotating, pulsing

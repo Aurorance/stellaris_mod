@@ -2,6 +2,8 @@ relic_activation_cooldown = {
 	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
 }
 
-zora_healing = {
+mipha_bless = {
+	ship_hull_regen_add_static = 10
 	ship_armor_regen_add_static = 10
+	ship_shield_regen_add_static = 10
 }
