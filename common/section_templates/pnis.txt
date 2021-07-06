@@ -20,12 +20,18 @@ ship_section_template = {
 	}
 	
 	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
 		name = "TORPEDO_01"
 		template = "medium_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 	
-	small_utility_slots = 1
+	small_utility_slots = 3
 	aux_utility_slots = 1
 	
 	resources = {
@@ -60,7 +66,13 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	small_utility_slots = 3
 	aux_utility_slots = 1
 	
 	ai_weight = {
@@ -113,7 +125,13 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	small_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	small_utility_slots = 3
 	aux_utility_slots = 1
 	
 	resources = {
