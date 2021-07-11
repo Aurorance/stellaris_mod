@@ -1,54 +1,132 @@
 music = {
-	name = "aqua"
+	name = "【あてぃし】ヴァンパイア／湊あくあ【歌ってみた】"
 	file = "aqua.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "ayame"
+	name = "【歌ってみた】グッバイ宣言 _ 百鬼あやめ"
 	file = "ayame.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "korone"
+	name = "恋愛裁判　Ver.戌神ころね"
 	file = "korone.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "lucia"
+	name = "【歌ってみた】花に亡霊 _ ヨルシカ"
 	file = "lucia.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "matsuri"
+	name = "カタオモイ(Aimer) _ 夏色まつり cover"
 	file = "matsuri.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "okayu"
+	name = "ウミユリ海底譚 _ 猫又おかゆ(cover)"
 	file = "okayu.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "pekora"
+	name = "ディスコミュ星人_兎田ぺこら"
 	file = "pekora.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "suisei"
+	name = "GHOST _ 星街すいせい(official)"
 	file = "suisei.ogg"
 	volume = 0.80
 }
 
 music = {
-	name = "towasama"
+	name = "_ERROR_常闇トワ(cover)"
 	file = "towasama.ogg"
 	volume = 0.80
 }
+
+music = {
+	name = "Mori Calliope Ch. hololive-EN - guh"
+	file = "mori_guh.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Mori Calliope - The Grim Reaper is a Live-Streamer"
+	file = "mori_streamer.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Mori Calliope - いじめっ子Bully"
+	file = "mori_bully.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "[ORIGINAL] REFLECT - Gawr Gura"
+	file = "gura_reflect.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Mori Calliope - Ibasho (Where I Belong)"
+	file = "mori_whereibelong.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "[ORIGINAL SONG] Cursed Night - Calliope Mori"
+	file = "mori_cursednight.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "HololiveEN【Mori Calliope】失礼しますが、RIP"
+	file = "mori_guh.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "曇天羊／角巻わため feat.Calliope Mori"
+	file = "mori_watame.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "[ORIGINAL SONG] Off With Their Heads - Calliope Mori"
+	file = "mori_offwiththeirheads.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "【GURAxKIARA】Aikotoba III SONG COVER 【愛言葉III】"
+	file = "gura_kiara_aikotoba.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "[MV] Red - Calliope Mori "
+	file = "mori_red.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Empress Calliope Ver."
+	file = "mori_empress.ogg"
+	volume = 0.80
+}
+
+
+
+
+
+
 

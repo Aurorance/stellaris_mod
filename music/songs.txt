@@ -1,35 +1,83 @@
 song = {
-	name = "aqua"
+	name = "【あてぃし】ヴァンパイア／湊あくあ【歌ってみた】"
  }
  
  song = {
-	name = "ayame"
+	name = "【歌ってみた】グッバイ宣言 _ 百鬼あやめ"
  }
 
  song = {
-	name = "korone"
+	name = "恋愛裁判　Ver.戌神ころね"
  }
 
  song = {
-	name = "lucia"
+	name = "【歌ってみた】花に亡霊 _ ヨルシカ"
  }
 
  song = {
-	name = "matsuri"
+	name = "カタオモイ(Aimer) _ 夏色まつり cover"
  }
 
  song = {
-	name = "okayu"
+	name = "ウミユリ海底譚 _ 猫又おかゆ(cover)"
  }
 
  song = {
-	name = "pekora"
+	name = "ディスコミュ星人_兎田ぺこら"
  }
 
  song = {
-	name = "suisei"
+	name = "GHOST _ 星街すいせい(official)"
  }
 
  song = {
-	name = "towasama"
+	name = "_ERROR_常闇トワ(cover)"
+ }
+
+ song = {
+	name = "Mori Calliope Ch. hololive-EN - guh"
+ }
+
+ song = {
+	name = "Mori Calliope - The Grim Reaper is a Live-Streamer"
+ }
+
+ song = {
+	name = "Mori Calliope - いじめっ子Bully"
+ }
+
+ song = {
+	name = "[ORIGINAL] REFLECT - Gawr Gura"
+ }
+
+ song = {
+	name = "Mori Calliope - Ibasho (Where I Belong)"
+ }
+
+ song = {
+	name = "[ORIGINAL SONG] Cursed Night - Calliope Mori"
+ }
+
+ song = {
+	name = "HololiveEN【Mori Calliope】失礼しますが、RIP"
+ }
+
+ song = {
+	name = "曇天羊／角巻わため feat.Calliope Mori"
+ }
+
+ song = {
+	name = "[ORIGINAL SONG] Off With Their Heads - Calliope Mori"
+ }
+
+ song = {
+	name = "【GURAxKIARA】Aikotoba III SONG COVER 【愛言葉III】"
+ }
+
+ song = {
+	name = "[MV] Red - Calliope Mori"
+ }
+
+ song = {
+	name = "Empress Calliope Ver."
  }
