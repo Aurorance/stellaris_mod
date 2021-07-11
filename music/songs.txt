@@ -1,0 +1,35 @@
+song = {
+	name = "aqua"
+ }
+ 
+ song = {
+	name = "ayame"
+ }
+
+ song = {
+	name = "korone"
+ }
+
+ song = {
+	name = "lucia"
+ }
+
+ song = {
+	name = "matsuri"
+ }
+
+ song = {
+	name = "okayu"
+ }
+
+ song = {
+	name = "pekora"
+ }
+
+ song = {
+	name = "suisei"
+ }
+
+ song = {
+	name = "towasama"
+ }

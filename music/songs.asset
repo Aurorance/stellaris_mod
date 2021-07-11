@@ -1,0 +1,54 @@
+music = {
+	name = "aqua"
+	file = "aqua.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "ayame"
+	file = "ayame.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "korone"
+	file = "korone.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "lucia"
+	file = "lucia.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "matsuri"
+	file = "matsuri.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "okayu"
+	file = "okayu.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "pekora"
+	file = "pekora.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "suisei"
+	file = "suisei.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "towasama"
+	file = "towasama.ogg"
+	volume = 0.80
+}
+
