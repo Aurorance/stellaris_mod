@@ -55,4 +55,9 @@
 # Zora Sword
  mipha_bless:0 "Mipha's Blessing"
  r_trident:0 "Ceremonial Trident"
- r_trident_desc:0 "A trident wielded by Zora Champion Mipha. It gives the blessing from Mipha to the whole empire which boosts regeneration."
+ r_trident_desc:0 "A trident wielded by Champion Mipha. It gives the blessing from Mipha to the whole empire which boosts regeneration."
+
+# Boulder Breaker
+ daruk_bless:0 "Daruk's Blessing"
+ r_boulder:0 "Boulder Breaker"
+ r_boulder_desc:0 "A two-handed weapon wielded by Champion Daruk. It gives the blessing from Daruk to the whole empire which increases ships' toughness."
