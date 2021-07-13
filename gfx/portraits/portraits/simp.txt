@@ -4,4 +4,5 @@ portraits = {
 	gura    = {texturefile = "gfx/models/portraits/gura.dds"  }
 	ayame    = {texturefile = "gfx/models/portraits/ayame.dds"  }
 	pekora    = {texturefile = "gfx/models/portraits/pekora.dds"  }
+	watson   = {texturefile = "gfx/models/portraits/watson.dds"  }
 }
