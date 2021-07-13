@@ -1,0 +1,7 @@
+portraits = {
+	aqua     = {texturefile = "gfx/models/portraits/aqua.dds"  }
+	mori    = {texturefile = "gfx/models/portraits/mori.dds"  }
+	gura    = {texturefile = "gfx/models/portraits/gura.dds"  }
+	ayame    = {texturefile = "gfx/models/portraits/ayame.dds"  }
+	pekora    = {texturefile = "gfx/models/portraits/pekora.dds"  }
+}

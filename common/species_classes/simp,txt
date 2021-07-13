@@ -1,0 +1,65 @@
+"AQUA" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"aqua"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
+"MORI" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"mori"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
+"GURA" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"gura"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
+"AYAME" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"ayame"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
+"PEKORA" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"pekora"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}
