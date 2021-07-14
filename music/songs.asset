@@ -113,7 +113,7 @@ music = {
 }
 
 music = {
-	name = "[MV] Red - Calliope Mori "
+	name = "[MV] Red - Calliope Mori"
 	file = "mori_red.ogg"
 	volume = 0.80
 }
