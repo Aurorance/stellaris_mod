@@ -1,7 +1,7 @@
 country_event  = {
-	id = simp.100
-	title = "simp.100.name"
-	desc = "simp.100.desc"
+	id = simp.0
+	title = "simp.0.name"
+	desc = "simp.0.desc"
 	picture = GFX_evt_exploding_ship
 	location = root
 	is_triggered_only = yes
@@ -10,20 +10,20 @@ country_event  = {
         is_country_type = default
     }
 	option = { # Granted
-		name = simp.100.a
-		custom_tooltip = simp.100.a.tooltip
+		name = simp.0.a
+		custom_tooltip = simp.0.a.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = AQUA }
+					species = AQUA
 					name = "Minato Aqua"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_admiral_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait= "leader_trait_stubborn"
 						trait = "leader_trait_unyielding"
 						trait = "leader_trait_analytical"
@@ -33,20 +33,20 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp.100.b
-		custom_tooltip = simp.100.b.tooltip
+		name = simp.0.b
+		custom_tooltip = simp.0.b.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = AYAME }
+					species = AYAME
 					name = "Nakiri Ayame"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_general_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_butcher"
 						trait = "leader_trait_glory_seeker"
 						trait = "leader_trait_charismatic	"
@@ -57,20 +57,20 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp.100.c
-		custom_tooltip = simp.100.c.tooltip
+		name = simp.0.c
+		custom_tooltip = simp.0.c.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = PEKORA }
+					species = PEKORA
 					name = "Usada Pekora"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_admiral_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_aggressive"
 						trait = "leader_trait_analytical"
 						trait = "leader_trait_arrested_development"
@@ -82,20 +82,20 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp.100.d
-		custom_tooltip = simp.100.d.tooltip
+		name = simp.0.d
+		custom_tooltip = simp.0.d.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = MORI }
+					species = MORI
 					name = "Mori Calliope"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_general_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_butcher"
 						trait = "leader_trait_demoralizer"
 						trait = "leader_trait_analytical"
@@ -105,20 +105,20 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp.100.e
-		custom_tooltip = simp.100.e.tooltip
+		name = simp.0.e
+		custom_tooltip = simp.0.e.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = GURA }
+					species = GURA
 					name = "Gawr Gura"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_admiral_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_cautious"
 						trait = "leader_trait_void_swimmer"
 						trait = "leader_trait_ethereal"
@@ -129,20 +129,20 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp.100.f
-		custom_tooltip = simp.100.f.tooltip
+		name = simp.0.f
+		custom_tooltip = simp.0.f.tooltip
 
 		hidden_effect = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = { is_species_class = WATSON }
+					species = WATSON
 					name = "Watson Amelia"
 					skill = 6
 					event_leader = yes
 					set_age = 1
 					traits = {
-						trait = "leader_trait_scientist_chosen"
+						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_maniacal"
 						trait = "leader_trait_spark_of_genius"
 						trait = "leader_trait_scientist_brainslug"
@@ -153,14 +153,14 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-	name = simp.100.g
-	custom_tooltip = simp.100.g.tooltip
+	name = simp.0.g
+	custom_tooltip = simp.0.g.tooltip
 
 	hidden_effect = {
 		owner = {
 			create_leader = {
 				class = governor
-				species = { is_species_class = SUBARU }
+				species = SUBARU
 				name = "Oozora Subaduck"
 				skill = 6
 				event_leader = yes
