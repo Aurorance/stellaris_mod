@@ -4,7 +4,7 @@ country_event  = {
 	desc = "simp.100.desc"
 	picture = GFX_evt_exploding_ship
 	location = from
-	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = { # Granted
 		name = simp.100.a
@@ -130,5 +130,54 @@ country_event  = {
 			}
 		}
 	}
+	option = { # Granted
+		name = simp.100.f
+		custom_tooltip = simp.100.f.tooltip
+
+		hidden_effect = {
+			owner = {
+				create_leader = {
+					class = { admiral scientist general governor }
+					species = WATSON
+					name = "Watson Amelia"
+					skill = 6
+					event_leader = yes
+					leader_age_min = 1
+					leader_age_max = 1
+					traits = {
+						trait = "leader_trait_scientist_chosen"
+						trait = "leader_trait_maniacal"
+						trait = "leader_trait_spark_of_genius"
+						trait = "leader_trait_scientist_brainslug"
+						trait = "leader_trait_analytical"
+					}
+				}
+			}
+		}
+	}
+	option = { # Granted
+	name = simp.100.g
+	custom_tooltip = simp.100.g.tooltip
+
+	hidden_effect = {
+		owner = {
+			create_leader = {
+				class = { admiral scientist general governor }
+				species = SUBARU
+				name = "Oozora Subaduck"
+				skill = 6
+				event_leader = yes
+				leader_age_min = 1
+				leader_age_max = 1
+				traits = {
+					trait = "leader_trait_governor_chosen"
+					trait = "leader_trait_intellectual"
+					trait = "leader_trait_righteous"
+					trait = "leader_trait_analytical"
+				}
+			}
+		}
+	}
+}
 
 }
