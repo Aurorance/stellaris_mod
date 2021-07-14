@@ -17,7 +17,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = AQUA
+					species = { is_species_class = AQUA }
 					name = "Minato Aqua"
 					skill = 6
 					event_leader = yes
@@ -40,7 +40,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = AYAME
+					species = { is_species_class = AYAME }
 					name = "Nakiri Ayame"
 					skill = 6
 					event_leader = yes
@@ -64,7 +64,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = PEKORA
+					species = { is_species_class = PEKORA }
 					name = "Usada Pekora"
 					skill = 6
 					event_leader = yes
@@ -89,7 +89,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = MORI
+					species = { is_species_class = MORI }
 					name = "Mori Calliope"
 					skill = 6
 					event_leader = yes
@@ -112,7 +112,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = GURA
+					species = { is_species_class = GURA }
 					name = "Gawr Gura"
 					skill = 6
 					event_leader = yes
@@ -136,7 +136,7 @@ country_event  = {
 			owner = {
 				create_leader = {
 					class = governor
-					species = WATSON
+					species = { is_species_class = WATSON }
 					name = "Watson Amelia"
 					skill = 6
 					event_leader = yes
@@ -160,7 +160,7 @@ country_event  = {
 		owner = {
 			create_leader = {
 				class = governor
-				species = SUBARU
+				species = { is_species_class = SUBARU }
 				name = "Oozora Subaduck"
 				skill = 6
 				event_leader = yes
