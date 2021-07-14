@@ -76,3 +76,16 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
+"SUBARU" = {
+	playable = { always = no }
+	randomized = no
+
+	gender = no
+
+	portraits = {
+		"subaru"
+	}
+
+	graphical_culture = humanoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

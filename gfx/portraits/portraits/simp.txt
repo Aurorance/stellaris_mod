@@ -5,4 +5,5 @@ portraits = {
 	ayame    = {texturefile = "gfx/models/portraits/ayame.dds"  }
 	pekora    = {texturefile = "gfx/models/portraits/pekora.dds"  }
 	watson   = {texturefile = "gfx/models/portraits/watson.dds"  }
+	subaru   = {texturefile = "gfx/models/portraits/subaru.dds"  }
 }
