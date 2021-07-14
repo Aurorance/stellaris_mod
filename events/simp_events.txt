@@ -1,17 +1,22 @@
+namespace = hololive
+
 country_event  = {
-	id = simp_events.1
-	title = "simp_events.1.name"
-	desc = "simp_events.1.desc"
+	id = hololive.1
+	title = "hololive.1.name"
+	desc = "hololive.1.desc"
 	picture = GFX_evt_exploding_ship
 	location = root
 	is_triggered_only = yes
 	fire_only_once = yes
+	
 	trigger = {
+		owner = { is_ai = no }
         is_country_type = default
     }
+	
 	option = { # Granted
-		name = simp_events.1.a
-		custom_tooltip = simp_events.1.a.tooltip
+		name = hololive.1.a
+		custom_tooltip = hololive.1.a.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -34,8 +39,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp_events.1.b
-		custom_tooltip = simp_events.1.b.tooltip
+		name = hololive.1.b
+		custom_tooltip = hololive.1.b.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -59,8 +64,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp_events.1.c
-		custom_tooltip = simp_events.1.c.tooltip
+		name = hololive.1.c
+		custom_tooltip = hololive.1.c.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -85,8 +90,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp_events.1.d
-		custom_tooltip = simp_events.1.d.tooltip
+		name = hololive.1.d
+		custom_tooltip = hololive.1.d.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -109,8 +114,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp_events.1.e
-		custom_tooltip = simp_events.1.e.tooltip
+		name = hololive.1.e
+		custom_tooltip = hololive.1.e.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -134,8 +139,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-		name = simp_events.1.f
-		custom_tooltip = simp_events.1.f.tooltip
+		name = hololive.1.f
+		custom_tooltip = hololive.1.f.tooltip
 
 		hidden_effect = {
 			owner = {
@@ -159,8 +164,8 @@ country_event  = {
 		}
 	}
 	option = { # Granted
-	name = simp_events.1.g
-	custom_tooltip = simp_events.1.g.tooltip
+	name = hololive.1.g
+	custom_tooltip = hololive.1.g.tooltip
 
 	hidden_effect = {
 		owner = {
