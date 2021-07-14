@@ -1,4 +1,4 @@
-"AQUA" = {
+AQUA = {
 	playable = { always = no }
 	randomized = no
 
@@ -11,7 +11,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"MORI" = {
+MORI = {
 	playable = { always = no }
 	randomized = no
 
@@ -24,7 +24,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"GURA" = {
+GURA = {
 	playable = { always = no }
 	randomized = no
 
@@ -37,7 +37,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"AYAME" = {
+AYAME = {
 	playable = { always = no }
 	randomized = no
 
@@ -50,7 +50,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"PEKORA" = {
+PEKORA = {
 	playable = { always = no }
 	randomized = no
 
@@ -63,7 +63,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"WATSON" = {
+WATSON = {
 	playable = { always = no }
 	randomized = no
 
@@ -76,7 +76,7 @@
 	graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }
-"SUBARU" = {
+SUBARU = {
 	playable = { always = no }
 	randomized = no
 
