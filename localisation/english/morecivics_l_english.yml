@@ -61,3 +61,41 @@
  daruk_bless:0 "Daruk's Blessing"
  r_boulder:0 "Boulder Breaker"
  r_boulder_desc:0 "A two-handed weapon wielded by Champion Daruk. It gives the blessing from Daruk to the whole empire which increases ships' toughness."
+
+# Tech
+pnis:0 "Pnis"
+pnis_plural:0 "Pnises"
+kamikaze_tech_1:0 "Kamikaze attack!"
+kamikaze_tech_2:0 "Kamikaze attack!!"
+kamikaze_tech_3:0 "Kamikaze attack!!!"
+kamikaze_tech_1_desc:0 "Unlocks Component that greatly increase the speed of small ship to perform kamikaze attack"
+kamikaze_tech_2_desc:0 "Unlocks Component that drastically increase the speed of small ship to perform kamikaze attack"
+kamikaze_tech_3_desc:0 "Unlocks Component that substantially increase the speed of small ship to perform kamikaze attack"
+
+# Events tech
+tech_guardian:0 "Guardian"
+tech_guardian_desc:0 "Unlocks guardian"
+tech_Great_Eagle_Bow:0 "Great Eagle Bow"
+tech_Great_Eagle_Bow_desc:0 "Unlocks Great Eagle Bow"
+tech_hylian_shield:0 "Hylian Shield"
+tech_hylian_shield_desc:0 "Unlocks Hylian Shield"
+tech_pnis:0 "Pnis"
+tech_pnis_desc:0 "Unlocks Pnis"
+
+# Simp
+hololive.1.desc:0 "Simp your waifu"
+hololive.1.a:0 "Kon Aquaaaaaaaa"
+hololive.1.b:0 "Greetings, humans! Nakiri Ayame has arrived!"
+hololive.1.c:0 "PEKO↗PEKO↘PEKO↗PEKO↘PEKO!"
+hololive.1.d:0 "Im your mori"
+hololive.1.e:0 "A"
+hololive.1.f:0 "Ur mum gae"
+hololive.1.g:0 "SUBA!"
+
+hololive.1.a.tooltip:0 "[target_aqua.GetName] joins the [Root.Owner.GetName]"
+hololive.1.b.tooltip:0 "[target_ayame.GetName] joins the [Root.Owner.GetName]"
+hololive.1.c.tooltip:0 "[target_pekora.GetName] joins the [Root.Owner.GetName]"
+hololive.1.d.tooltip:0 "[target_mori.GetName] joins the [Root.Owner.GetName]"
+hololive.1.e.tooltip:0 "[target_gura.GetName] joins the [Root.Owner.GetName]"
+hololive.1.f.tooltip:0 "[target_watson.GetName] joins the [Root.Owner.GetName]"
+hololive.1.g.tooltip:0 "[target_suabru.GetName] joins the [Root.Owner.GetName]"
