@@ -1,11 +1,11 @@
 portraits = {
-	aqua     = {texturefile = "gfx/models/portraits/aqua.dds"  }
-	mori    = {texturefile = "gfx/models/portraits/mori.dds"  }
-	gura    = {texturefile = "gfx/models/portraits/gura.dds"  }
-	ayame    = {texturefile = "gfx/models/portraits/ayame.dds"  }
-	pekora    = {texturefile = "gfx/models/portraits/pekora.dds"  }
-	watson   = {texturefile = "gfx/models/portraits/watson.dds"  }
-	subaru   = {texturefile = "gfx/models/portraits/subaru.dds"  }
-	okayu   = {texturefile = "gfx/models/portraits/okayu.dds"  }
-	korone   = {texturefile = "gfx/models/portraits/korone.dds"  }
+	aqua     = {texturefile = "gfx/models/portraits/aqua.dds" greeting_sound = konaqua }
+	mori    = {texturefile = "gfx/models/portraits/mori.dds" greeting_sound = guh }
+	gura    = {texturefile = "gfx/models/portraits/gura.dds" greeting_sound = a }
+	ayame    = {texturefile = "gfx/models/portraits/ayame.dds" greeting_sound = yo }
+	pekora    = {texturefile = "gfx/models/portraits/pekora.dds" greeting_sound = konpeko }
+	watson   = {texturefile = "gfx/models/portraits/watson.dds" greeting_sound = yourmum }
+	subaru   = {texturefile = "gfx/models/portraits/subaru.dds" greeting_sound = suba }
+	okayu   = {texturefile = "gfx/models/portraits/okayu.dds" greeting_sound = mogu }
+	korone   = {texturefile = "gfx/models/portraits/korone.dds" greeting_sound = yubi }
 }

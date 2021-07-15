@@ -1,0 +1,71 @@
+sound =
+{
+	name = "konaqua_01"
+	file = "gui/konaqua.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "yo_01"
+	file = "gui/yo.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "konpeko_01"
+	file = "gui/konpeko.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "a_01"
+	file = "gui/a.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "yourmum_01"
+	file = "gui/yourmum.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "guh_01"
+	file = "gui/guh.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "suba_01"
+	file = "gui/suba.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "mogu_01"
+	file = "gui/mogu.wav"
+	volume = 0.8
+	always_load = yes 
+}
+
+sound =
+{
+	name = "yubi_01"
+	file = "gui/yubi.wav"
+	volume = 0.8
+	always_load = yes 
+}

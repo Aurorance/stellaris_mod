@@ -1,0 +1,63 @@
+soundeffect = {
+	name = konaqua
+	sounds = {
+		sound = konaqua_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = yo
+	sounds = {
+		sound = yo_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = konpeko
+	sounds = {
+		sound = konpeko_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = a
+	sounds = {
+		sound = a_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = yourmum
+	sounds = {
+		sound = yourmum_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = guh
+	sounds = {
+		sound = guh_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = suba
+	sounds = {
+		sound = suba_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = mogu
+	sounds = {
+		sound = mogu_01
+	}  
+	volume = 0.55
+}
+soundeffect = {
+	name = yubi
+	sounds = {
+		sound = yubi_01
+	}  
+	volume = 0.55
+}
