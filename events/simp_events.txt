@@ -30,7 +30,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_aqua
 					name = "Minato Aqua"
 					skill = 6
@@ -38,13 +38,12 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait= "leader_trait_stubborn"
-						trait = "leader_trait_unyielding"
-						trait = "leader_trait_ai_aided_design"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait= "trait_ruler_battleship_focus"
+						trait = "leader_trait_fleet_organizer"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -64,7 +63,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_ayame
 					name = "Nakiri Ayame"
 					skill = 6
@@ -72,13 +71,12 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait = "leader_trait_butcher"
-						trait = "leader_trait_glory_seeker"
-						trait = "leader_trait_charismatic"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait = "trait_ruler_warlike"
+						trait = "trait_ruler_champion_of_the_people"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -98,7 +96,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_pekora
 					name = "Usada Pekora"
 					skill = 6
@@ -106,14 +104,12 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait = "leader_trait_aggressive"
-						trait = "leader_trait_analytical"
-						trait = "leader_trait_arrested_development"
-						trait = "leader_trait_trickster"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait = "trait_ruler_champion_of_the_people"
+						trait = "trait_ruler_eye_for_talent"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -133,7 +129,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_mori
 					name = "Mori Calliope"
 					skill = 6
@@ -141,12 +137,12 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait = "leader_trait_butcher"
-						trait = "leader_trait_demoralizer"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait = "trait_ruler_warlike"
+						trait = "trait_ruler_recruiter"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -166,7 +162,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_gura
 					name = "Gawr Gura"
 					skill = 6
@@ -174,13 +170,13 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait = "leader_trait_cautious"
-						trait = "leader_trait_void_swimmer"
-						trait = "leader_trait_ethereal"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait = "trait_ruler_champion_of_the_people"
+						trait = "trait_ruler_charismatic"
+						trait = "trait_ruler_corvette_focus"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -200,7 +196,7 @@ country_event  = {
 					}
 				}
 				create_leader = {
-					class = governor
+					class = ruler
 					species = event_target:target_watson
 					name = "Watson Amelia"
 					skill = 6
@@ -208,13 +204,12 @@ country_event  = {
 					leader_age_min = 1
 					leader_age_max = 1
 					traits = {
-						trait = "leader_trait_governor_chosen"
-						trait = "leader_trait_maniacal"
-						trait = "leader_trait_spark_of_genius"
-						trait = "leader_trait_scientist_brainslug"
-						trait = "leader_trait_analytical"
+						trait = "leader_trait_ruler_chosen"
+						trait = "leader_trait_reformer"
+						trait = "leader_trait_ruler_erudite"
 					}
 				}
+				set_leader = last_created_leader
 			}
 		}
 	}
@@ -234,7 +229,7 @@ country_event  = {
 				}
 			}
 			create_leader = {
-				class = governor
+				class = ruler
 				species = event_target:target_subaru
 				name = "Oozora Subaduck"
 				skill = 6
@@ -242,12 +237,12 @@ country_event  = {
 				leader_age_min = 1
 				leader_age_max = 1
 				traits = {
-					trait = "leader_trait_governor_chosen"
-					trait = "leader_trait_intellectual"
-					trait = "leader_trait_righteous"
-					trait = "leader_trait_analytical"
+					trait = "leader_trait_ruler_chosen"
+					trait = "trait_ruler_champion_of_the_people"
+					trait = "trait_ruler_charismatic"
 				}
 			}
+			set_leader = last_created_leader
 		}
 	}
 }
@@ -267,7 +262,7 @@ option = { # Granted
 				}
 			}
 			create_leader = {
-				class = governor
+				class = ruler
 				species = event_target:target_okayu
 				name = "Nekomata Okayu"
 				skill = 6
@@ -275,12 +270,12 @@ option = { # Granted
 				leader_age_min = 1
 				leader_age_max = 1
 				traits = {
-					trait = "leader_trait_governor_chosen"
-					trait = "leader_trait_arrested_development"
-					trait = "leader_trait_agrarian_upbringing"
-					trait = "leader_trait_analytical"
+					trait = "leader_trait_ruler_chosen"
+					trait = "trait_ruler_fertility_preacher"
+					trait = "trait_ruler_expansionist"
 				}
 			}
+			set_leader = last_created_leader
 		}
 	}
 }
@@ -300,7 +295,7 @@ option = { # Granted
 				}
 			}
 			create_leader = {
-				class = governor
+				class = ruler
 				species = event_target:target_korone
 				name = "Inugami Korone"
 				skill = 6
@@ -308,12 +303,12 @@ option = { # Granted
 				leader_age_min = 1
 				leader_age_max = 1
 				traits = {	
-					trait = "leader_trait_governor_chosen"
-					trait = "leader_trait_iron_fist"
-					trait = "leader_trait_righteous"
-					trait = "leader_trait_analytical"
+					trait = "leader_trait_ruler_chosen"
+					trait = "trait_ruler_champion_of_the_people"
+					trait = "trait_ruler_explorer"
 				}
 			}
+			set_leader = last_created_leader
 		}
 	}
 }
