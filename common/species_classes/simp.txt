@@ -12,6 +12,8 @@ HOLOLIVE = {
 		"pekora"
 		"subaru"
 		"watson"
+		"okayu"
+		"korone"
 	}
 
 	graphical_culture = humanoid_01

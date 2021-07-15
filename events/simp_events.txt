@@ -41,6 +41,7 @@ country_event  = {
 						trait = "leader_trait_governor_chosen"
 						trait= "leader_trait_stubborn"
 						trait = "leader_trait_unyielding"
+						trait = "leader_trait_ai_aided_design"
 						trait = "leader_trait_analytical"
 					}
 				}
@@ -74,7 +75,7 @@ country_event  = {
 						trait = "leader_trait_governor_chosen"
 						trait = "leader_trait_butcher"
 						trait = "leader_trait_glory_seeker"
-						trait = "leader_trait_charismatic	"
+						trait = "leader_trait_charismatic"
 						trait = "leader_trait_analytical"
 					}
 				}
@@ -243,6 +244,72 @@ country_event  = {
 				traits = {
 					trait = "leader_trait_governor_chosen"
 					trait = "leader_trait_intellectual"
+					trait = "leader_trait_righteous"
+					trait = "leader_trait_analytical"
+				}
+			}
+		}
+	}
+}
+option = { # Granted
+	name = hololive.1.h
+	custom_tooltip = hololive.1.h.tooltip
+
+	hidden_effect = {
+		owner = {
+			create_species = {
+				name = Okayu
+				class = HOLOLIVE
+				portrait = "okayu"
+				immortal = yes
+				effect = {
+					save_event_target_as = target_okayu
+				}
+			}
+			create_leader = {
+				class = governor
+				species = event_target:target_okayu
+				name = "Nekomata Okayu"
+				skill = 6
+				event_leader = yes
+				leader_age_min = 1
+				leader_age_max = 1
+				traits = {
+					trait = "leader_trait_governor_chosen"
+					trait = "leader_trait_arrested_development"
+					trait = "leader_trait_agrarian_upbringing"
+					trait = "leader_trait_analytical"
+				}
+			}
+		}
+	}
+}
+option = { # Granted
+	name = hololive.1.i
+	custom_tooltip = hololive.1.i.tooltip
+
+	hidden_effect = {
+		owner = {
+			create_species = {
+				name = Korone
+				class = HOLOLIVE
+				portrait = "korone"
+				immortal = yes
+				effect = {
+					save_event_target_as = target_korone
+				}
+			}
+			create_leader = {
+				class = governor
+				species = event_target:target_korone
+				name = "Inugami Korone"
+				skill = 6
+				event_leader = yes
+				leader_age_min = 1
+				leader_age_max = 1
+				traits = {	
+					trait = "leader_trait_governor_chosen"
+					trait = "leader_trait_iron_fist"
 					trait = "leader_trait_righteous"
 					trait = "leader_trait_analytical"
 				}
