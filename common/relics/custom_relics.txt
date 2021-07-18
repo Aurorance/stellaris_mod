@@ -174,7 +174,7 @@ r_eagle = {
 		potential = {
 			always = yes
 		}
-		ship_tracking_add = 0.2
+		ship_tracking_add = 15
 		ship_weapon_range_mult = 0.3
 	}
 
