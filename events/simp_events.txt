@@ -1,17 +1,15 @@
 namespace = hololive
 
-country_event  = {
+event  = {
 	id = hololive.1
 	title = "hololive.1.name"
 	desc = "hololive.1.desc"
 	picture = GFX_evt_exploding_ship
-	location = root
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	trigger = {
 		owner = { is_ai = no }
-        is_country_type = default
     }
 	
 	option = { # Granted
