@@ -54,13 +54,23 @@
 
 # Zora Sword
  mipha_bless:0 "Mipha's Blessing"
- r_trident:0 "Ceremonial Trident"
- r_trident_desc:0 "A trident wielded by Champion Mipha. It gives the blessing from Mipha to the whole empire which boosts regeneration."
+ r_trident:0 "Lightscale Trident"
+ r_trident_desc:0 "A spear of peerless grace cherished by the Zora Champion Mipha. Although Mipha specialized in healing abilities, her spearmanship was in a class all its own."
 
 # Boulder Breaker
  daruk_bless:0 "Daruk's Blessing"
  r_boulder:0 "Boulder Breaker"
- r_boulder_desc:0 "A two-handed weapon wielded by Champion Daruk. It gives the blessing from Daruk to the whole empire which increases ships' toughness."
+ r_boulder_desc:0 "This two-handed weapon was once wielded by the Goron Champion Daruk. Daruk made swinging it around look easy, but a Hylian would need an immense amount of strength."
+
+# Scimitar of the Seven
+ urbosa_bless:0 "Urbosa's Blessing"
+ r_scimitar:0 "Scimitar of the Seven"
+ r_scimitar_desc:0 "A famous sword once beloved by the Gerudo Champion Urbosa. It is said that when Urbosa swung this sword in battle, her movements resembled a beautiful dance."
+
+# Great Eagle Bow
+ revali_bless:0 "Revali's Blessing"
+ r_eagle:0 "Great Eagle Bow"
+ r_eagle_desc:0 "A bow without equal wielded by the Rito Champion, Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat."
 
 # Tech
 pnis:0 "Pnis"
