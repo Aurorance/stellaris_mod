@@ -1,6 +1,6 @@
 namespace = hololive
 
-event  = {
+country_event  = {
 	id = hololive.1
 	title = "hololive.1.name"
 	desc = "hololive.1.desc"
