@@ -101,3 +101,104 @@ r_boulder = {
 		}
 	}
 }
+
+r_scimitar = {
+	activation_duration = @trident_duration
+	portrait = "GFX_relic_scimitar"
+	sound = "relic_activation_scimitar"
+
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		ship_hull_damage_mult = 0.2
+		ship_armor_damage_mult = 0.2
+		ship_shield_damage_mult = 0.2
+	}
+
+	score = 2000
+
+	active_effect = {
+		add_modifier = {
+			modifier = "urbosa_bless"
+			days = @trident_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @trident_duration
+			}
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_eagle = {
+	activation_duration = @trident_duration
+	portrait = "GFX_relic_eagle"
+	sound = "relic_activation_eagle"
+
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		ship_tracking_add = 0.2
+		ship_weapon_range_mult = 0.3
+	}
+
+	score = 2000
+
+	active_effect = {
+		add_modifier = {
+			modifier = "revali_bless"
+			days = @trident_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @trident_duration
+			}
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
