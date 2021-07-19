@@ -310,5 +310,12 @@ option = { # Granted
 		}
 	}
 }
+option = { # Granted
+	name = hololive.1.l
+	custom_tooltip = hololive.1.l.tooltip
+
+	hidden_effect = {
+	}
+}
 
 }
