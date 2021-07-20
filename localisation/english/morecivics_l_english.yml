@@ -75,6 +75,7 @@
 # Tech
 pnis:0 "Pnis"
 pnis_plural:0 "Pnises"
+pnis_DESC:0 "Unlocks ship type: Pnis"
 kamikaze_tech_1:0 "Kamikaze attack!"
 kamikaze_tech_2:0 "Kamikaze attack!!"
 kamikaze_tech_3:0 "Kamikaze attack!!!"
