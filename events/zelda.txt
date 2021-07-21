@@ -1,8 +1,19 @@
-# Zelda Botw Event Chain
+namespace = botw
 
-# Trigger events on mid game
-on_mid_game_pulse = {
-	events = {
-		botw.1 # spawn divine beasts
+# Zelda Botw Event Chain
+# Notification (High Intel)
+country_event = {
+	id = botw.1
+	title = "botw.1.name"
+	desc = "botw.1.desc"
+	picture = GFX_evt_wormhole
+	show_sound = event_ex_started
+	location = root
+
+	is_triggered_only = yes
+
+	option = {
+		name = botw.1.a
+		custom_tooltip = botw.1.a.tooltip
 	}
 }

@@ -1,76 +1,76 @@
 ﻿l_english:
 # Civic Advanced Productivity
- civic_machine_advanced_productivity:0 "Advanced Productivity Core"
- civic_machine_advanced_productivity_desc:0 "An ancient core from a fallen machine empire that provides an aura which enhances productivity of all robots. No one knows how it works, but we can benefit from it."
+civic_machine_advanced_productivity:0 "Advanced Productivity Core"
+civic_machine_advanced_productivity_desc:0 "An ancient core from a fallen machine empire that provides an aura which enhances productivity of all robots. No one knows how it works, but we can benefit from it."
 
 # Civic Horny Citizens
- civic_horny:0 "Horny citizens"
- civic_horny_desc:0 "They shakalakaboomboom everyday. More people, more boom boom, empire stronger!"
+civic_horny:0 "Horny citizens"
+civic_horny_desc:0 "They shakalakaboomboom everyday. More people, more boom boom, empire stronger!"
 
 # Civic Russian
- civic_russian:0 "Russian"
- civic_russian_desc:0 "Somehow vodka is a must for a strong army. Cyka Blyat."
+civic_russian:0 "Russian"
+civic_russian_desc:0 "Somehow vodka is a must for a strong army. Cyka Blyat."
 
 # Organic Pops
- mod_planet_pops_organics_upkeep_mult:0 "Organic Pop Upkeep"
+mod_planet_pops_organics_upkeep_mult:0 "Organic Pop Upkeep"
 
 # Communism
- civic_communism:0 "Communism"
- civic_communism_desc:0 "Communism adjusts the political power of all citizens, making the empire more powerful."
+civic_communism:0 "Communism"
+civic_communism_desc:0 "Communism adjusts the political power of all citizens, making the empire more powerful."
 
 # Brothel
- building_brothel:0 "Brothel"
- building_brothel_desc:0 "Brothel provides thots that increase population growth speed, and also make citizens happier."
+building_brothel:0 "Brothel"
+building_brothel_desc:0 "Brothel provides thots that increase population growth speed, and also make citizens happier."
 
 # Pokimane Job
- job_pokimane:0 "Pokimane"
- job_pokimane_plural:0 "Pokimanes"
- job_pokimane_desc:0 "Twitch thots perform various streams that are crucial to population growth and amenities."
- job_pokimane_effect_desc:0 "£job_pokimane£ $job_pokimane_plural$ produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
- mod_job_pokimane_add:0 "$job_pokimane$ Jobs"
- mod_job_pokimane_per_pop:0 "§G+1§! $job_pokimane$ Job per $VALUE$ Pops"
- mod_job_pokimane_per_pop_short:0 "\n§G+1§! £mod_job_clerk_add£ per $VALUE$ £pop£"
+job_pokimane:0 "Pokimane"
+job_pokimane_plural:0 "Pokimanes"
+job_pokimane_desc:0 "Twitch thots perform various streams that are crucial to population growth and amenities."
+job_pokimane_effect_desc:0 "£job_pokimane£ $job_pokimane_plural$ produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+mod_job_pokimane_add:0 "$job_pokimane$ Jobs"
+mod_job_pokimane_per_pop:0 "§G+1§! $job_pokimane$ Job per $VALUE$ Pops"
+mod_job_pokimane_per_pop_short:0 "\n§G+1§! £mod_job_clerk_add£ per $VALUE$ £pop£"
 
 # Horny describes brothels
- civic_tooltip_horny_effects:1 "£building£ §YBrothels§! that increases £mod_pop_growth_speed£ §YPop Growth Speed§! and allow £job_pokimane §Y$job_pokimane_plural$§! produce £amenities£ §YAmenities§!"
+civic_tooltip_horny_effects:1 "£building£ §YBrothels§! that increases £mod_pop_growth_speed£ §YPop Growth Speed§! and allow £job_pokimane §Y$job_pokimane_plural$§! produce £amenities£ §YAmenities§!"
 
 # Diversified Researches
- civic_diversified_researches:0 "Diversified Researches"
- civic_diversified_researches_desc:0 "Diversified researches are encouraged in the science sector, leading to broader of science development."
+civic_diversified_researches:0 "Diversified Researches"
+civic_diversified_researches_desc:0 "Diversified researches are encouraged in the science sector, leading to broader of science development."
 
 # Megumin
- Megumin_tech_1:0 "Dangerous Megumin Explosives"
- Megumin_tech_2:0 "Deadly Megumin Explosives"
- Megumin_tech_3:0 "Forbidden Megumin Explosives"
- Megumin_1:0 "Dangerous Megumin"
- Megumin_2:0 "Deadly Megumin"
- Megumin_3:0 "Forbidden Megumin"
- Megumin_1_DESC:0 "Dangerous explosives from Megumin that deals tonnes of damage."
- Megumin_2_DESC:0 "Deadly explosives from Megumin that deals tonnes of damage."
- Megumin_3_DESC:0 "Forbidden explosives from Megumin that deals tonnes of damage."
- Megumin_tech_1_desc:0 "Dangerous explosives from Megumin that deals tonnes of damage."
- Megumin_tech_2_desc:0 "Deadly explosives from Megumin that deals tonnes of damage."
- Megumin_tech_3_desc:0 "Forbidden explosives from Megumin that deals tonnes of damage."
+Megumin_tech_1:0 "Dangerous Megumin Explosives"
+Megumin_tech_2:0 "Deadly Megumin Explosives"
+Megumin_tech_3:0 "Forbidden Megumin Explosives"
+Megumin_1:0 "Dangerous Megumin"
+Megumin_2:0 "Deadly Megumin"
+Megumin_3:0 "Forbidden Megumin"
+Megumin_1_DESC:0 "Dangerous explosives from Megumin that deals tonnes of damage."
+Megumin_2_DESC:0 "Deadly explosives from Megumin that deals tonnes of damage."
+Megumin_3_DESC:0 "Forbidden explosives from Megumin that deals tonnes of damage."
+Megumin_tech_1_desc:0 "Dangerous explosives from Megumin that deals tonnes of damage."
+Megumin_tech_2_desc:0 "Deadly explosives from Megumin that deals tonnes of damage."
+Megumin_tech_3_desc:0 "Forbidden explosives from Megumin that deals tonnes of damage."
 
 # Zora Sword
- mipha_bless:0 "Mipha's Blessing"
- r_trident:0 "Lightscale Trident"
- r_trident_desc:0 "A spear of peerless grace cherished by the Zora Champion Mipha. Although Mipha specialized in healing abilities, her spearmanship was in a class all its own."
+mipha_bless:0 "Mipha's Blessing"
+r_trident:0 "Lightscale Trident"
+r_trident_desc:0 "A spear of peerless grace cherished by the Zora Champion Mipha. Although Mipha specialized in healing abilities, her spearmanship was in a class all its own."
 
 # Boulder Breaker
- daruk_bless:0 "Daruk's Blessing"
- r_boulder:0 "Boulder Breaker"
- r_boulder_desc:0 "This two-handed weapon was once wielded by the Goron Champion Daruk. Daruk made swinging it around look easy, but a Hylian would need an immense amount of strength."
+daruk_bless:0 "Daruk's Blessing"
+r_boulder:0 "Boulder Breaker"
+r_boulder_desc:0 "This two-handed weapon was once wielded by the Goron Champion Daruk. Daruk made swinging it around look easy, but a Hylian would need an immense amount of strength."
 
 # Scimitar of the Seven
- urbosa_bless:0 "Urbosa's Blessing"
- r_scimitar:0 "Scimitar of the Seven"
- r_scimitar_desc:0 "A famous sword once beloved by the Gerudo Champion Urbosa. It is said that when Urbosa swung this sword in battle, her movements resembled a beautiful dance."
+urbosa_bless:0 "Urbosa's Blessing"
+r_scimitar:0 "Scimitar of the Seven"
+r_scimitar_desc:0 "A famous sword once beloved by the Gerudo Champion Urbosa. It is said that when Urbosa swung this sword in battle, her movements resembled a beautiful dance."
 
 # Great Eagle Bow
- revali_bless:0 "Revali's Blessing"
- r_eagle:0 "Great Eagle Bow"
- r_eagle_desc:0 "A bow without equal wielded by the Rito Champion, Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat."
+revali_bless:0 "Revali's Blessing"
+r_eagle:0 "Great Eagle Bow"
+r_eagle_desc:0 "A bow without equal wielded by the Rito Champion, Revali. It's said Revali could loose arrows with the speed of a gale, making him supreme in aerial combat."
 
 # Tech
 pnis:0 "Pnis"
@@ -98,7 +98,7 @@ hololive.1.desc:0 "Simp your waifu"
 hololive.1.a:0 "§BKon Aquaaaaaaaa"
 hololive.1.b:0 "§RGreetings, humans! Nakiri Ayame has arrived!"
 hololive.1.c:0 "§BPEKO↗PEKO↘PEKO↗PEKO↘PEKO!"
-hololive.1.d:0 "§RIm your mori"
+hololive.1.d:0 "§RGUH"
 hololive.1.e:0 "§BA"
 hololive.1.f:0 "§YUr mum gae"
 hololive.1.g:0 "§WSUBA!"
@@ -109,7 +109,7 @@ hololive.1.a.tooltip:0 "Aqua joins the [Root.Owner.GetName]"
 hololive.1.b.tooltip:0 "Ayame joins the [Root.Owner.GetName]"
 hololive.1.c.tooltip:0 "Pekora joins the [Root.Owner.GetName]"
 hololive.1.d.tooltip:0 "Mori joins the [Root.Owner.GetName]"
-hololive.1.e.tooltip:0 "gura joins the [Root.Owner.GetName]"
+hololive.1.e.tooltip:0 "Gura joins the [Root.Owner.GetName]"
 hololive.1.f.tooltip:0 "Watson joins the [Root.Owner.GetName]"
 hololive.1.g.tooltip:0 "Subaduck joins the [Root.Owner.GetName]"
 hololive.1.h.tooltip:0 "Subaduck joins the [Root.Owner.GetName]"
@@ -126,3 +126,9 @@ ENERGY_TORPEDO_3:0 "Dark Matter Launchers"
 ENERGY_TORPEDO_3_DESC:0 "$tech_energy_torpedoes_3_desc$"
 tech_energy_torpedoes_3:0 "Dark Matter Launchers"
 tech_energy_torpedoes_3_desc:0 "Upgraded energy projectiles that rely on dark matters instead of neutrons for their destructive power."
+
+# Breath of the Wild
+botw.1.name:0 "The Wild Dimension"
+botw.1.desc:0 "We have detected a suspicious signal being continuously transmitted across the entire galaxy. Our technicians are able trace the signal to its source barely, and discovered that the signal comes from another dimension which is linked with the galaxy by a extradimensional portal.\n\nWhat we have observed is that there exists a wild continential inside the unknown dimension. Efforts to investigate this unknown dimension are underway, but until then we should stay alert to "§HThe Wild Dimension§!," as it seems to be containing various elements that are beyond our understanding, and we don't know what will be popping out from the unfamiliar portal."
+botw.1.a:0 "Achknowledged."
+botw.1.a.tooltip:0 ""Breath of the Wild Event Chain" starts."
