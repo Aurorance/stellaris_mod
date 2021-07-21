@@ -1,0 +1,8 @@
+# Zelda Botw Event Chain
+
+# Trigger events on mid game
+on_mid_game_pulse = {
+	events = {
+		botw.1 # spawn divine beasts
+	}
+}

@@ -1,0 +1,13 @@
+# Simp event when the game starts
+on_game_start_country = {
+	events = {
+		hololive.1
+	}
+}
+
+# Trigger botw event when mid game
+on_mid_game_pulse = {
+	events = {
+		botw.1 # spawn divine beasts
+	}
+}
