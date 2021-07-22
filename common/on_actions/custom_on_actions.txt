@@ -6,8 +6,8 @@ on_game_start_country = {
 }
 
 # Trigger botw event when mid game
-on_mid_game_pulse = {
+on_mid_game_pulse_country = {
 	events = {
-		botw.1 # spawn divine beasts
+		botw.1 #spawn divine beasts
 	}
 }

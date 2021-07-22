@@ -2,15 +2,20 @@ namespace = botw
 
 # Zelda Botw Event Chain
 # Notification (High Intel)
+
 country_event = {
 	id = botw.1
 	title = "botw.1.name"
 	desc = "botw.1.desc"
-	picture = GFX_evt_wormhole
+	picture = GFX_evt_relic_world_street
 	show_sound = event_ex_started
+	is_triggered_only = yes
 	location = root
 
-	is_triggered_only = yes
+	trigger = {
+        is_ai = no 
+        is_country_type = default
+    }
 
 	option = {
 		name = botw.1.a
