@@ -317,5 +317,4 @@ option = { # Granted
 	hidden_effect = {
 	}
 }
-
 }

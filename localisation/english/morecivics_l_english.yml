@@ -129,6 +129,6 @@ tech_energy_torpedoes_3_desc:0 "Upgraded energy projectiles that rely on dark ma
 
 # Breath of the Wild
 botw.1.name:0 "The Wild Dimension"
-botw.1.desc:0 "We have detected a suspicious signal being continuously transmitted across the entire galaxy. Our technicians are able to trace the signal to its source barely, and discovered that the signal comes from another dimension which is linked with the galaxy by a extradimensional portal.\n\nWhat we have observed is that there exists a wild continential inside the unknown dimension. Efforts to investigate this unknown dimension are underway, but until then we should stay alert to §HThe Wild Dimension§!, as it seems to be containing various elements that are beyond our understanding, and we don't know what will be popping out from the unfamiliar portal."
+botw.1.desc:0 "We have detected a suspicious signal being continuously transmitted across the entire galaxy. Our technicians are able to trace the signal to its source barely, and discovered that the signal comes from another dimension which is linked with the galaxy by a extradimensional portal.\n\nWhat we have observed is that there exists a wild continent inside the unknown dimension. Efforts to investigate this unknown dimension are underway, but until then we should stay alert to §HThe Wild Dimension§!, as it seems to be containing various elements that are beyond our understanding, and we don't know what will be popping out from the unfamiliar portal."
 botw.1.a:0 "Achknowledged."
 botw.1.a.tooltip:0 ""Breath of the Wild Event Chain" starts."
