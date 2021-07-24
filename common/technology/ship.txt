@@ -1,9 +1,9 @@
 tech_pnis = {
-	cost = 4000
+	cost = 32000
 	area = engineering
-	tier = 3
+	tier = 5
 	category = { voidcraft }
-	weight = 70
+	weight = 30
     is_reverse_engineerable = yes
 	ai_weight = {
 		factor = 0

@@ -1,0 +1,3 @@
+galatic_idol = {
+	pop_amenities_usage_mult = -0.2
+}

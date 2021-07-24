@@ -1,0 +1,69 @@
+namespace = aqua
+
+country_event = {
+	id = aqua.0
+	title = aqua.0.name
+	desc = aqua.0.desc
+	picture = GFX_evt_aqua0
+	location = root
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = aqua.0.a
+		hidden_effect = {
+			set_country_flag = aqua.0.a
+			change_variable = { which = affection value = 5 }
+			country_event = { id = aqua.1 days = 30 random = 30 }
+		}
+	}
+
+	option = {
+		name = aqua.0.b
+		hidden_effect = {
+			set_country_flag = aqua.0.b
+			country_event = { id = aqua.1 days = 365 random = 30 }
+		}
+	}
+}
+
+country_event = {
+	id = aqua.1
+	title = aqua.1.name
+	desc = {
+		trigger = {
+			has_country_flag = aqua.0.a
+		}
+		text = aqua.1.desc
+	}
+	desc = {
+		trigger = {
+			has_country_flag = aqua.0.b
+		}
+		text = aqua.1.desc.mach
+	}
+	picture = GFX_evt_aqua1
+	location = root
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = aqua.1.a
+		hidden_effect = {
+			change_variable = { which = affection value = 5 }
+			}
+		add_modifier = { modifier =  "galatic_idol" days = -1 }
+		}
+
+	option = {
+		name = aqua.1.b
+		hidden_effect = {
+		}
+	}
+	after ={
+		remove_country_flag = aqua.0.a
+		remove_country_flag = aqua.0.b
+	}
+}
