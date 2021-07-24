@@ -140,6 +140,13 @@ ENERGY_TORPEDO_3:0 "Dark Matter Launchers"
 ENERGY_TORPEDO_3_DESC:0 "$tech_energy_torpedoes_3_desc$"
 tech_energy_torpedoes_3:0 "Dark Matter Launchers"
 tech_energy_torpedoes_3_desc:0 "Upgraded energy projectiles that rely on dark matters instead of neutrons for their destructive power."
+tech_mass_drivers_6:0 "Gus Cannons"
+tech_mass_drivers_6_desc:0 "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed."
+SMALL_MASS_DRIVER_6:0 "Small Gus Cannons"
+Medium_MASS_DRIVER_6:0 "Medium Gus Cannons"
+Large_MASS_DRIVER_6:0 "Large Gus Cannons"
+MASS_DRIVER_6:0 "Gus Cannons"
+MASS_DRIVER_6_DESC:0 "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed."
 
 # Breath of the Wild
 botw.1.name:0 "The Wild Dimension"

@@ -1099,6 +1099,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_mass_driver_6"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_mass_driver_6.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_kinetic_artillery_1"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_kinetic_artillery_1.dds"
 	}
