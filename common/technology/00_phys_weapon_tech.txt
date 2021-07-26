@@ -815,7 +815,7 @@ tech_energy_torpedoes_3 = {
 	tier = 5
 	category = { particles }
 	ai_update_type = military	
-	prerequisites = { "tech_energy_torpedoes_2" }
+	prerequisites = { "tech_energy_torpedoes_2" "tech_mine_dark_matter"}
 	weight = @tier5weight2
 	
 	weight_modifier = {
@@ -862,7 +862,7 @@ tech_mining_drone_weapon_plus_1 = {
 	tier = 5
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_mining_drone_weapon_1" }
+	prerequisites = { "tech_mining_drone_weapon_1" "tech_mine_dark_matter" }
 	weight_modifier = {
 		modifier = {
 			factor = 1.25

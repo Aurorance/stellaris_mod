@@ -219,7 +219,7 @@ tech_mass_drivers_6 = {
 	tier = 5
 	category = { propulsion }
 	ai_update_type = military
-	prerequisites = { "tech_mass_drivers_5" }
+	prerequisites = { "tech_mass_drivers_5" "tech_mine_dark_matter" }
 	weight = 25
 	
 	gateway = kinetic_weapons
