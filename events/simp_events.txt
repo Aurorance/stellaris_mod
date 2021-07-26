@@ -44,7 +44,7 @@ country_event  = {
 				set_leader = last_created_leader
 			}
 			set_variable = { which = affection value = 0 }
-			country_event = { id = aqua.0 days = 30 random = 30 }
+			#country_event = { id = aqua.0 days = 30 random = 30 }
 		}
 	}
 	option = { # Granted
