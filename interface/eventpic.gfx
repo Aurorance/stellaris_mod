@@ -1,4 +1,5 @@
-spriteType = {
+spriteTypes{
+	spriteType = {
 	name = "GFX_evt_simp"
 	texturefile = "gfx/event_pictures/simp.dds"
 	masking_texture = "gfx/interface/situation_log/event_mask.dds"
@@ -15,4 +16,5 @@ spriteType = {
 	texturefile = "gfx/event_pictures/aqua1.dds"
 	masking_texture = "gfx/interface/situation_log/event_mask.dds"
 	alwaystransparent = yes	
+}
 }
